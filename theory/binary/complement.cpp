@@ -16,3 +16,18 @@ int main()
     ans=(~num)&mask;
 cout<<ans;
     }//output:2
+/*bool isPowerOfTwo(int n){
+{
+    int ans=1,i;
+   for(i=0;i<=30;i++)//this loop will run 31 times as per 32 bit condition;
+   {
+   
+    if(ans==n)
+    {return true;}//we have used here boolen al that is why we are usin T &F
+    if(ans<INT32_MAX)//value of answer should be less than 2^31
+    ans=ans*2;//so, we divide it by 2 to make it 2^30
+   }
+   return false;
+}
+}
+*/
