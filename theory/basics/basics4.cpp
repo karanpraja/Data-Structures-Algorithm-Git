@@ -5,12 +5,12 @@ using namespace std;
 int main()
 {
 //reverse integer code is incomplete
-// int n,r;
-// cout<<"enter an integer:";
-// cin>>n;
-// while(n!=0) {   r=n%10;//we could use space function to reverse it!
-//                cout<<r;
-//                 n=n/10;}
+int nu,rm;
+cout<<"enter an integer:";
+cin>>nu;
+while(nu!=0) {   rm=nu%10;//we could use space function to reverse it!
+               cout<<rm;
+                nu=nu/10;}
 int m, b,re;
 cout<<"\nenter a number:";//find code of how to print reverse integer
 cin>>m;
