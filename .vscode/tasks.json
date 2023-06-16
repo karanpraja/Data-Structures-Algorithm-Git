@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: cpp.exe build active file",
-            "command": "C:\\Program Files (x86)\\MinGW\\bin\\cpp.exe",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\Program Files (x86)\\MinGW\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
