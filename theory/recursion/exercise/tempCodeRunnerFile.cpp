@@ -1,0 +1,1 @@
+this is in case you want to search an element from the given array
