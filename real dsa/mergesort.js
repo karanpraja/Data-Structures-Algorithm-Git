@@ -64,7 +64,7 @@ function merge(arr, s, m, e)
 // of arr to be sorted
 function mergeSort(arr,s, e){
     if(s>=e){
-        return;
+        return;//base condition
     }
     var m =s+ parseInt((e-s)/2);
     mergeSort(arr,s,m);
@@ -74,7 +74,7 @@ function mergeSort(arr,s, e){
  
 // Function to print an array
 function printArray( A, size)
-{
+{//it should take time but it should develop you!!
     for (var i = 0; i < size; i++)
        console.log(  A[i] + " ");
 }
@@ -82,13 +82,10 @@ function printArray( A, size)
  
 var arr = [ 12, 11, 13, 5, 6, 7 ];
     var arr_size = arr.length;
- 
     console.log(  "Given array is ");
     printArray(arr, arr_size);
- 
     mergeSort(arr, 0, arr_size - 1);
- 
     console.log( "Sorted array is ");
     printArray(arr, arr_size);
- 
-// This code is contributed by SoumikMondal
+
+//  This code is contributed by SoumikMondal

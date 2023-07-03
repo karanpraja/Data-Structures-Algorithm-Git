@@ -1,3 +1,4 @@
-#include <iostream>
-	#include <cstring>
-	using namespace std;
+int f(int &a)//here &a is significant
+// {
+// a++;
+// }

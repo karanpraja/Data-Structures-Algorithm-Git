@@ -30,13 +30,13 @@ cout<<"b:"<<b;
 return 0;
 }
 
-int f(int &a)//here &a is significant
-{
-a++;
-}
-int main() {
-int a=5;
-f(a);
-cout<<"a:"<<a;
-return 0;
-}//a:6;
+// int f(int &a)//here &a is significant
+// {
+// a++;
+// }
+// int main() {
+// int a=5;
+// f(a);
+// cout<<"a:"<<a;
+// return 0;
+// }//a:6;

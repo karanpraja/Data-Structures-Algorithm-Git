@@ -43,7 +43,7 @@ return true;//if the inside condition is true then this will not be executed.
 
 int main()
 {
-string s = "A man, a plan, a canal: Panama";
+string s = "A man, A plan, A canal: Panama";
 string temp="";//sizeof f(x) counts only characters but lenght function counts everything
 // cout<<"sizeof:"<<s.length()<<endl;
 for(int i=0;i<s.length();i++)
